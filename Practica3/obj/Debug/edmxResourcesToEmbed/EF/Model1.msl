@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="PracticaS12ModelStoreContainer" CdmEntityContainer="PracticaS12Entities">
+    <EntitySetMapping Name="Abonos">
+      <EntityTypeMapping TypeName="PracticaS12Model.Abonos">
+        <MappingFragment StoreEntitySet="Abonos">
+          <ScalarProperty Name="Id_Compra" ColumnName="Id_Compra" />
+          <ScalarProperty Name="Id_Abono" ColumnName="Id_Abono" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Principal">
+      <EntityTypeMapping TypeName="PracticaS12Model.Principal">
+        <MappingFragment StoreEntitySet="Principal">
+          <ScalarProperty Name="Id_Compra" ColumnName="Id_Compra" />
+          <ScalarProperty Name="Precio" ColumnName="Precio" />
+          <ScalarProperty Name="Saldo" ColumnName="Saldo" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

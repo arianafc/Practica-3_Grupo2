@@ -1,0 +1,48 @@
+﻿@{
+    Layout = null; 
+}
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewBag.Title - Practica 3</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet" />
+
+    <link href="~/Content/site.css" rel="stylesheet" />
+
+    @RenderSection("styles", required: false)
+</head>
+<body>
+    <!-- ===== HEADER / NAVBAR ===== -->
+    <nav class="navbar navbar-inverse navbar-fixed-top slim-navbar">
+        <div class="container-fluid">
+            <ul class="nav navbar-nav nav-main">
+                <li>@Html.ActionLink("Inicio", "Index", "Home")</li>
+                <li>@Html.ActionLink("Consulta", "Index", "Consulta")</li>
+                <li>@Html.ActionLink("Registro", "Index", "Registro")</li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container body-content">
+        @RenderBody()
+    </div>
+
+    <!-- ===== FOOTER ===== -->
+    <footer class="main-footer text-center">
+        <p>
+            <i class="fa-regular fa-copyright"></i>
+            @DateTime.Now.Year – Practica 3
+        </p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="~/Scripts/jquery-1.10.2.min.js"></script>
+    <script src="~/Scripts/bootstrap.min.js"></script>
+    @RenderSection("scripts", required: false)
+</body>
+</html>

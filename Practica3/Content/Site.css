@@ -1,0 +1,224 @@
+﻿/* ═════════════ PALETA RÁPIDA ═════════════ */
+:root {
+    --brand-bg: #1f4e79; /* azul corporativo */
+    --brand-fg: #ffffff; /* texto claro */
+    --accent: #ffdd57; /* amarillo para hover / subrayado */
+}
+
+/* ═════════════ RESET & ESTRUCTURA GENERAL ═════════════ */
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background: #f5f7fa;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+/* ═════════════ NAVBAR ═════════════ */
+.navbar-inverse,
+.slim-navbar {
+    background: var(--brand-bg);
+    border: none;
+    min-height: 60px;
+}
+
+    .slim-navbar .container-fluid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 30px;
+    }
+
+    .navbar-inverse .navbar-nav > li > a {
+        color: var(--brand-fg);
+    }
+
+        .navbar-inverse .navbar-nav > li > a:hover,
+        .navbar-inverse .navbar-nav > li > a:focus {
+            color: var(--accent);
+        }
+
+.nav-main {
+    list-style: none !important;
+    margin: 0;
+    align-items: center;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+    .nav-main > li {
+        float: none;
+    }
+
+        .nav-main > li > a {
+            color: var(--brand-fg) !important;
+            padding: 14px 0;
+            font-weight: 500;
+            text-decoration: none;
+            position: relative;
+        }
+
+            .nav-main > li > a::after {
+                content: '';
+                position: absolute;
+                left: 0;
+                bottom: 6px;
+                width: 0;
+                height: 2px;
+                background: var(--accent);
+                transition: width .25s ease;
+            }
+
+            .nav-main > li > a:hover::after,
+            .nav-main > .active > a::after {
+                width: 100%;
+            }
+
+/* ═════════════ CONTENIDO PRINCIPAL ═════════════ */
+.body-content {
+    flex: 1 0 auto;
+    padding-top: 60px;
+    padding-bottom: 2rem;
+}
+
+/* ═════════════ FOOTER ═════════════ */
+.main-footer {
+    background: var(--brand-bg);
+    color: var(--brand-fg);
+    text-align: center;
+    padding: 1rem 0;
+    margin: 0;
+    flex-shrink: 0;
+}
+
+/* ═════════════ RESPONSIVE (≤ 600 px) ═════════════ */
+@media (max-width: 600px) {
+    .nav-main {
+        gap: 1rem;
+        font-size: 14px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+
+/* ═════════════ BLOQUE DE BIENVENIDA ═════════════ */
+.welcome-wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+
+/* ═════════════ BLOQUE DE REGISTRO ═════════════ */
+
+.panel.panel-form {
+    max-width: 760px;
+    margin: 20px auto;
+    padding: 16px;
+    border: 1px solid #bbb;
+    background: #f7f7f7
+}
+
+.titulo-form {
+    text-align: center;
+    margin: 10px auto 20px;
+    border: 1px solid #aaa;
+    padding: 6px;
+    background: #fff
+}
+
+.fila {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 12px 0
+}
+
+.fila-centrada {
+    justify-content: center
+}
+
+.etiqueta {
+    width: 160px;
+    text-align: right;
+    font-weight: 600
+}
+
+.listbox-contenedor {
+    flex: 1
+}
+
+.listbox {
+    width: 100%;
+    min-width: 260px
+}
+
+.acciones-lado {
+    width: 140px;
+    display: flex;
+    justify-content: flex-start
+}
+
+.entrada {
+    width: 260px
+}
+
+.btn-principal {
+    padding: 10px 22px
+}
+
+.btn-grande {
+    min-width: 280px
+}
+
+.btn-secundario {
+    padding: 8px 14px
+}
+
+
+
+
+/* ═════════════ BLOQUE DE REGISTRO ═════════════ */
+.panel.panel-form {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 16px;
+    border: 1px solid #bbb;
+    background: #f7f7f7;
+}
+
+.titulo-form {
+    text-align: center;
+    margin: 10px auto 20px;
+    border: 1px solid #aaa;
+    padding: 6px;
+    background: #fff;
+    width: 200px;
+}
+
+.tabla-consulta {
+    width: 100%;
+    border-collapse: collapse;
+    background: #fff;
+}
+
+    .tabla-consulta th,
+    .tabla-consulta td {
+        border: 1px solid #000;
+        padding: 6px;
+        text-align: left;
+    }
+
+    .tabla-consulta th {
+        background: #e0e0e0;
+        text-align: center;
+    }

@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PracticaS12Model" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Abonos">
+    <Key>
+      <PropertyRef Name="Id_Abono" />
+    </Key>
+    <Property Name="Id_Compra" Type="Int64" Nullable="false" />
+    <Property Name="Id_Abono" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Monto" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="3" />
+    <NavigationProperty Name="Principal" Relationship="Self.FK_Abonos_Principal" FromRole="Abonos" ToRole="Principal" />
+  </EntityType>
+  <EntityType Name="Principal">
+    <Key>
+      <PropertyRef Name="Id_Compra" />
+    </Key>
+    <Property Name="Id_Compra" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Precio" Type="Decimal" Precision="18" Scale="5" Nullable="false" />
+    <Property Name="Saldo" Type="Decimal" Precision="18" Scale="5" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="Abonos" Relationship="Self.FK_Abonos_Principal" FromRole="Principal" ToRole="Abonos" />
+  </EntityType>
+  <Association Name="FK_Abonos_Principal">
+    <End Role="Principal" Type="Self.Principal" Multiplicity="1" />
+    <End Role="Abonos" Type="Self.Abonos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Principal">
+        <PropertyRef Name="Id_Compra" />
+      </Principal>
+      <Dependent Role="Abonos">
+        <PropertyRef Name="Id_Compra" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PracticaS12Entities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Abonos" EntityType="Self.Abonos" />
+    <EntitySet Name="Principal" EntityType="Self.Principal" />
+    <AssociationSet Name="FK_Abonos_Principal" Association="Self.FK_Abonos_Principal">
+      <End Role="Principal" EntitySet="Principal" />
+      <End Role="Abonos" EntitySet="Abonos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

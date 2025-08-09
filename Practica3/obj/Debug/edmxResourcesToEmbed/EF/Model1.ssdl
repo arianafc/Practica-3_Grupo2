@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="PracticaS12Model.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Abonos">
+    <Key>
+      <PropertyRef Name="Id_Abono" />
+    </Key>
+    <Property Name="Id_Compra" Type="bigint" Nullable="false" />
+    <Property Name="Id_Abono" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Monto" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+    <Property Name="Fecha" Type="datetime" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Principal">
+    <Key>
+      <PropertyRef Name="Id_Compra" />
+    </Key>
+    <Property Name="Id_Compra" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Precio" Type="decimal" Precision="18" Scale="5" Nullable="false" />
+    <Property Name="Saldo" Type="decimal" Precision="18" Scale="5" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="500" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="100" Nullable="false" />
+  </EntityType>
+  <Association Name="FK_Abonos_Principal">
+    <End Role="Principal" Type="Self.Principal" Multiplicity="1" />
+    <End Role="Abonos" Type="Self.Abonos" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Principal">
+        <PropertyRef Name="Id_Compra" />
+      </Principal>
+      <Dependent Role="Abonos">
+        <PropertyRef Name="Id_Compra" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="PracticaS12ModelStoreContainer">
+    <EntitySet Name="Abonos" EntityType="Self.Abonos" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Principal" EntityType="Self.Principal" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Abonos_Principal" Association="Self.FK_Abonos_Principal">
+      <End Role="Principal" EntitySet="Principal" />
+      <End Role="Abonos" EntitySet="Abonos" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

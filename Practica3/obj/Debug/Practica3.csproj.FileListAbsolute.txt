@@ -1,0 +1,164 @@
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\Practica3.dll.config
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\Practica3.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\Practica3.pdb
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\csc.exe
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\csc.exe.config
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\csc.rsp
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\csi.exe
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\csi.exe.config
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\csi.rsp
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.AppContext.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Console.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.IO.Compression.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Net.Http.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Net.Sockets.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.ValueTuple.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Xml.XPath.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\vbc.exe
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\vbc.exe.config
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\vbc.rsp
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\VBCSCompiler.exe
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\EntityFramework.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\EntityFramework.SqlServer.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Helpers.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Mvc.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Razor.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Webpages.Deployment.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Webpages.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Webpages.Razor.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\EntityFramework.xml
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\EntityFramework.SqlServer.xml
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Razor.xml
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Webpages.xml
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Webpages.Deployment.xml
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Webpages.Razor.xml
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Helpers.xml
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\System.Web.Mvc.xml
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\es\System.Web.Razor.resources.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\es\System.Web.Webpages.resources.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\es\System.Web.Helpers.resources.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\bin\es\System.Web.Mvc.resources.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\obj\Debug\Practica3.csproj.AssemblyReference.cache
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\obj\Debug\Practica3.csproj.CoreCompileInputs.cache
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\obj\Debug\Practica3.csproj.Up2Date
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\obj\Debug\Practica3.dll
+C:\Users\andre\Desktop\K-Progra Avanzada\Practica 3\Practica3\Practica3\Practica3\obj\Debug\Practica3.pdb
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\Practica3.dll.config
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\Practica3.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\Practica3.pdb
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\csc.exe
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\csc.exe.config
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\csc.rsp
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\csi.exe
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\csi.exe.config
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\csi.rsp
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.AppContext.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Collections.Immutable.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Console.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Globalization.Calendars.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.IO.Compression.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.IO.FileSystem.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Net.Http.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Net.Sockets.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Reflection.Metadata.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.ValueTuple.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Xml.XPath.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\vbc.exe
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\vbc.exe.config
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\vbc.rsp
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\VBCSCompiler.exe
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\roslyn\VBCSCompiler.exe.config
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\EntityFramework.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\EntityFramework.SqlServer.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\Microsoft.Web.Infrastructure.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Helpers.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Mvc.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Razor.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Webpages.Deployment.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Webpages.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Webpages.Razor.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\EntityFramework.xml
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\EntityFramework.SqlServer.xml
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Razor.xml
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Webpages.xml
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Webpages.Deployment.xml
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Webpages.Razor.xml
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Helpers.xml
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\System.Web.Mvc.xml
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\es\System.Web.Razor.resources.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\es\System.Web.Webpages.resources.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\es\System.Web.Webpages.Deployment.resources.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\es\System.Web.Webpages.Razor.resources.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\es\System.Web.Helpers.resources.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\bin\es\System.Web.Mvc.resources.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\obj\Debug\Practica3.csproj.AssemblyReference.cache
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\obj\Debug\Practica3.csproj.CoreCompileInputs.cache
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\obj\Debug\Practica3.csproj.Up2Date
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\obj\Debug\Practica3.dll
+C:\Progra Avanzada\Practica#3_Grupo2\Practica3\obj\Debug\Practica3.pdb

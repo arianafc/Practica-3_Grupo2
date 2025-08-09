@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Practica3.EF.Principal>
+@{
+    ViewBag.Title = "Consulta";
+}
+
+<div class="panel panel-form">
+    <h2 class="titulo-form">Consulta</h2>
+
+    <table class="tabla-consulta">
+        <thead>
+            <tr>
+                <th>Código Compra</th>
+                <th>Descripción</th>
+                <th>Precio</th>
+                <th>Saldo</th>
+                <th>Estado</th>
+            </tr>
+        </thead>
+        <tbody>
+            @if (Model != null && Model.Any())
+            {
+                foreach (var i in Model)
+                {
+                    <tr>
+                        <td>@i.Id_Compra</td>
+                        <td>@i.Descripcion</td>
+                        <td>@i.Precio</td>
+                        <td>@i.Saldo</td>
+                        <td>@i.Estado</td>
+                    </tr>
+                }
+            }
+            else
+            {
+                <tr>
+                    <td colspan="5" style="text-align:center;">No hay registros disponibles</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

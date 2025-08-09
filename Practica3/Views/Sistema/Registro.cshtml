@@ -1,0 +1,64 @@
+﻿@{
+    ViewBag.Title = "Registro";
+}
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+<div class="panel panel-form">
+    <h2 class="titulo-form">Registro</h2>
+
+    @using (Html.BeginForm("Index", "Registro", FormMethod.Post, new { @class = "form-vertical" }))
+    {
+        @Html.AntiForgeryToken()
+
+        @* Muestra mensajes de validación del servidor *@
+        @Html.ValidationSummary(false, "", new { @class = "text-danger" })
+
+        <div class="fila">
+            <label class="etiqueta">Compra</label>
+
+            <div style="display:flex; gap:8px; align-items:center;">
+                @Html.DropDownList(
+                    "Id_Compra",
+                    (SelectList)ViewBag.ComprasPendientes,
+                    "-- Seleccione una compra --",
+                    new { @class = "form-control", id = "Id_Compra" }
+                )
+                <button type="button" id="btnConsultar" class="btn btn-secondary">Consultar</button>
+            </div>
+        </div>
+
+        <div class="fila">
+            <label class="etiqueta">Saldo Anterior</label>
+            <input type="text" id="SaldoAnterior" name="SaldoAnterior" class="entrada" readonly />
+        </div>
+
+        <div class="fila">
+            <label class="etiqueta">Abono</label>
+            <input type="number" step="0.01" min="0.01" name="Monto" class="entrada" required />
+        </div>
+
+        <div class="fila fila-centrada">
+            <button type="submit" class="btn-principal btn-grande">Abonar</button>
+        </div>
+    }
+</div>
+
+@section scripts{
+    
+    <script>
+        function consultarSaldo() {
+            var id = $("#Id_Compra").val();
+            if (!id) { $("#SaldoAnterior").val(""); return; }
+            $.getJSON("@Url.Action("GetSaldo","Registro")", { id: id })
+                .done(function (d) {
+                    if (d) $("#SaldoAnterior").val(Number(d.saldo).toFixed(2));
+                })
+                .fail(function () { alert("No se pudo obtener el saldo."); });
+        }
+
+        $(function () {
+            $("#Id_Compra").on("change", consultarSaldo);
+            $("#btnConsultar").on("click", consultarSaldo);
+        });
+    </script>
+}
